@@ -244,8 +244,8 @@ wrangler deploy
 ### 开发环境
 ```bash
 # 克隆仓库
-git clone https://github.com/wangwangit/SubsTracker.git
-cd SubsTracker
+git clone https://github.com/logdns/subpush.git
+cd subpush
 
 # 安装依赖
 npm install

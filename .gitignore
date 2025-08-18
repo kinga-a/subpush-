@@ -137,7 +137,6 @@ jspm_packages/
 
 # Wrangler
 .wrangler/
-wrangler.toml
 
 # OS generated files
 .DS_Store

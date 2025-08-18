@@ -1,0 +1,87 @@
+name = "substracker"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+# 定时任务配置 - 每天早上8点执行
+[triggers]
+crons = ["0 8 * * *"]
+
+# KV 存储配置
+[[kv_namespaces]]
+binding = "SUBSCRIPTIONS_KV"
+id = "your_kv_id_here"
+preview_id = "your_preview_kv_id_here"
+
+# 环境变量配置
+[vars]
+# 必需配置
+ADMIN_USERNAME = "admin"
+ADMIN_PASSWORD = "your_secure_password_here"
+JWT_SECRET = "your_random_secret_key_here"
+
+# 可选：Telegram 配置
+# TG_BOT_TOKEN = "your_telegram_bot_token"
+# TG_CHAT_ID = "your_telegram_chat_id"
+
+# 可选：NotifyX 配置
+# NOTIFYX_API_KEY = "your_notifyx_api_key"
+
+# 可选：企业微信应用通知配置
+# WEBHOOK_URL = "your_webhook_url"
+# WEBHOOK_METHOD = "POST"
+# WEBHOOK_HEADERS = "Content-Type: application/json"
+# WEBHOOK_TEMPLATE = '{"text":"{{content}}"}'
+
+# 可选：企业微信机器人配置
+# WECHATBOT_WEBHOOK = "your_wechatbot_webhook"
+# WECHATBOT_MSG_TYPE = "text"
+# WECHATBOT_AT_MOBILES = ""
+# WECHATBOT_AT_ALL = "false"
+
+# 可选：邮件通知配置 (Resend)
+# RESEND_API_KEY = "your_resend_api_key"
+# EMAIL_FROM = "your_verified_email@domain.com"
+# EMAIL_FROM_NAME = "订阅提醒系统"
+# EMAIL_TO = "recipient@example.com"
+
+# 可选：钉钉通知配置
+# DINGTALK_WEBHOOK = "your_dingtalk_webhook"
+# DINGTALK_SECRET = "your_dingtalk_secret"
+# DINGTALK_MSG_TYPE = "text"
+# DINGTALK_AT_MOBILES = ""
+# DINGTALK_AT_ALL = "false"
+
+# 可选：飞书通知配置
+# FEISHU_WEBHOOK = "your_feishu_webhook"
+# FEISHU_SECRET = "your_feishu_secret"
+# FEISHU_MSG_TYPE = "text"
+
+# 可选：Bark 推送配置
+# BARK_SERVER = "https://api.day.app"
+# BARK_DEVICE_KEY = "your_bark_device_key"
+# BARK_TITLE = "{{title}}"
+# BARK_BODY = "{{content}}"
+# BARK_SOUND = ""
+# BARK_BADGE = ""
+# BARK_ICON = ""
+# BARK_GROUP = ""
+# BARK_URL = ""
+
+# 可选：显示设置
+# SHOW_LUNAR = "true"
+
+# 可选：通知渠道配置
+# ENABLED_NOTIFIERS = ["notifyx"]
+
+# 可选：自定义域名配置
+# routes = [
+#   { pattern = "substracker.yourdomain.com", zone_name = "yourdomain.com" }
+# ]
+
+# 可选：资源限制配置
+[limits]
+cpu_ms = 50
+
+# 可选：兼容性标志
+[compatibility_flags]
+nodejs_compat = true 
