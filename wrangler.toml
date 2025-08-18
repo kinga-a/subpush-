@@ -1,6 +1,6 @@
 name = "substracker"
 main = "index.js"
-compatibility_date = "2024-01-01"
+compatibility_date = "2024-12-01"
 
 # 定时任务配置 - 每天早上8点执行
 [triggers]
