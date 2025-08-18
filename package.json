@@ -1,0 +1,49 @@
+{
+  "name": "substracker",
+  "version": "2.0.0",
+  "description": "基于 Cloudflare Workers 的智能订阅管理与提醒系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:preview": "wrangler deploy --preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "subscription",
+    "tracker",
+    "reminder",
+    "cloudflare",
+    "workers",
+    "notification",
+    "telegram",
+    "wechat",
+    "email",
+    "dingtalk",
+    "feishu",
+    "bark",
+    "lunar-calendar"
+  ],
+  "author": "SubsTracker Contributors",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logdns/subpush.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logdns/subpush/issues"
+  },
+  "homepage": "https://github.com/logdns/subpush#readme",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "DEPLOY.md",
+    "LICENSE"
+  ]
+} 
