@@ -1,6 +1,6 @@
-# SubsTracker - 智能订阅管理与提醒系统
+# 自定义-SubsTracker - 智能订阅管理与提醒系统
 
-基于 Cloudflare Workers 的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过多种渠道发送及时提醒。
+源项目SubsTracker 基于 Cloudflare Workers 的轻量级订阅管理系统，帮助您轻松跟踪各类订阅服务的到期时间，并通过多种渠道发送及时提醒。
 
 [![Deploy to Cloudflare Workers](https://deploy.cloudflareworkers.com/button)](https://deploy.cloudflareworkers.com/?url=https://github.com/logdns/subpush)
 
@@ -244,7 +244,7 @@ wrangler deploy
 ### 开发环境
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/SubsTracker.git
+git clone https://github.com/wangwangit/SubsTracker.git
 cd SubsTracker
 
 # 安装依赖
