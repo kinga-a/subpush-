@@ -84,10 +84,10 @@
    - 将 `index.js` 文件内容复制粘贴到编辑器中
    - 点击 "Save and deploy"
 
-6. 首次登录
-访问部署后的域名
-默认用户名：admin
-默认密码：password
+6. **首次登录**
+   - 访问部署后的域名
+   - 默认用户名：admin
+   - 默认密码：password
 
 ### 方法三：使用 Wrangler CLI
 
