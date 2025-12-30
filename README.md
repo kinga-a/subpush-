@@ -84,15 +84,10 @@
    - 将 `index.js` 文件内容复制粘贴到编辑器中
    - 点击 "Save and deploy"
 
-6. **配置环境变量**
-   - 在 Worker 页面，点击 "Settings" 标签
-   - 找到 "Environment Variables" 部分
-   - 添加以下变量：
-     ```
-     ADMIN_USERNAME=admin
-     ADMIN_PASSWORD=your_password
-     JWT_SECRET=your_jwt_secret
-     ```
+6. 首次登录
+访问部署后的域名
+默认用户名：admin
+默认密码：password
 
 ### 方法三：使用 Wrangler CLI
 
